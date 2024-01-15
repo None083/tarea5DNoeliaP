@@ -46,6 +46,17 @@ public class Cancion {
     public void setDuracion(int duracion) {
         this.duracion = duracion;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Cancion{");
+        sb.append("titulo=").append(titulo);
+        sb.append(", interprete=").append(interprete);
+        sb.append(", duracion=").append(duracion);
+        sb.append('}');
+        return sb.toString();
+    }
     
     
     
