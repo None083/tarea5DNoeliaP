@@ -22,6 +22,30 @@ public class Cancion {
 
     public Cancion() {
     }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getInterprete() {
+        return interprete;
+    }
+
+    public void setInterprete(String interprete) {
+        this.interprete = interprete;
+    }
+
+    public int getDuracion() {
+        return duracion;
+    }
+
+    public void setDuracion(int duracion) {
+        this.duracion = duracion;
+    }
     
     
     
